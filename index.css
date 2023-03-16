@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.card .card1 {
+    text-align: justify;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+
+}
+
+@media screen and (max-width: 468px) {
+    .container {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+
+    }
+
+}
